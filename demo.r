@@ -86,7 +86,7 @@ m <- leaflet(df) %>%
   )
 
 # Save the map as an HTML file
-htmlwidgets::saveWidget(m, file = "map_with_legend.html", selfcontained = TRUE)
+htmlwidgets::saveWidget(m, file = "index.html", selfcontained = TRUE)
 
 # Display the map
 m
